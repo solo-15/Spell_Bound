@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c3awisklxrjok"]
+
+[ext_resource type="PackedScene" uid="uid://bevjpptuq7dmp" path="res://ComLab (go).glb" id="1_i8lip"]
+
+[node name="Node3D" type="Node3D" unique_id=1741548755]
+
+[node name="ComLab (go)" parent="." unique_id=1487284763 instance=ExtResource("1_i8lip")]
+transform = Transform3D(-0.950212, 0.014522418, 0.31126565, 0, 0.99891335, -0.046605326, -0.3116042, -0.04428494, -0.9491795, -6.250454, -4.666192, 4.174959)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="ComLab (go)" unique_id=1918783466]
+transform = Transform3D(0.85770375, -0.36703724, 0.36003897, 0.36697358, 0.9274949, 0.071299076, -0.36010355, 0.07097128, 0.93020874, 0, 0.0130104115, 0.27885804)

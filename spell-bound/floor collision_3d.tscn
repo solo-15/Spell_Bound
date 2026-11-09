@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bfpsu6ij652eq"]
+
+[ext_resource type="PackedScene" uid="uid://jhrj7cbg8r25" path="res://ComLab (true).glb" id="1_h3ydr"]
+
+[node name="Node3D" type="Node3D" unique_id=168348467]
+
+[node name="ComLab (true)" parent="." unique_id=1096102550 instance=ExtResource("1_h3ydr")]
